@@ -70,5 +70,7 @@ public class Main {
 //        System.out.println(x1);
 //        System.out.println(x2);
 //        System.out.println(x3);
+
+        input.close();
     }
 }
