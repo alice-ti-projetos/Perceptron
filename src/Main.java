@@ -62,10 +62,17 @@ public class Main {
             System.out.println("Novo W3: " + novoW3);
             System.out.println("Novo B: " + novoB);
 
+            w1 = novoW1;
+            w2 = novoW2;
+            w3 = novoW3;
+
             soma = (x1 * novoW1) + (x2 * novoW2) + (x3 * novoW3) + novoB;
         }
 
         System.out.println("Soma final: " + soma);
+        System.out.println("Peso 1: " + w1);
+        System.out.println("Peso 2: " + w2);
+        System.out.println("Peso 3: " + w3);
 
 //        System.out.println(x1);
 //        System.out.println(x2);
